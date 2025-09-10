@@ -53,3 +53,9 @@ class Mungler:
         sns.heatmap(corr, annot=True, fmt=".2f", cmap='coolwarm', square=True, cbar_kws={"shrink": .8})
         plt.title('Correlation Heatmap')
         plt.show()
+
+    @staticmethod
+    def scatter_matrix(data:pd.DataFrame, features: list) -> None:
+        pd.plotting.scatter_matrix(data[features], figsize=(12, 12), diagonal='kde')
+        plt.title('Scatter Matrix')
+        plt.show()
