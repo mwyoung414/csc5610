@@ -29,3 +29,7 @@ htmlcov/
 *.gif
 *.html
 *.pdf
+*.md
+*.docx
+*.pptx
+*.xlsx

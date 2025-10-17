@@ -11,3 +11,4 @@
  ydata-sdk
  polars
  pyarrow
+ patsy
