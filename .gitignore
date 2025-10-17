@@ -23,3 +23,13 @@ instance/
 .pytest_cache/
 .coverage
 htmlcov/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.html
+*.pdf
+*.md
+*.docx
+*.pptx
+*.xlsx
